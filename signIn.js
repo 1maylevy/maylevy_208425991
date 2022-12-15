@@ -5,7 +5,7 @@ function showSignInPage() {
 
 
 
-    <form name="LogForm" class="well form-horizontal" action=" " method="post"  id="contact_form">
+    <form name="LogForm" class="well form-horizontal formay" action=" " method="post"  id="contact_form">
 <fieldset>
 
 <h2><b>Log In</b></h2>
@@ -31,7 +31,10 @@ function showSignInPage() {
   </div>
 </div>
 
-<div class="form-group">
+<div class="form-group" style="
+    display: flex;
+    justify-content: center;
+    ">
   <button type="submit">Login</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me

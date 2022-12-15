@@ -5,15 +5,12 @@ function showAboutUsDetails() {
 
 
 
-    <form name="LogForm" class="well form-horizontal" action=" " method="post"  id="contact_form">
-<fieldset>
 
 <div class="form-group">
+  <form name="AboutForm " class="well form-horizontal formay" action=" " method="post"  id="contact_form">
   <class="row">
   <h2><b>About Us</b></h2>
-  <form name="AboutForm " class="well form-horizontal" action=" " method="post"  id="contact_form">
 
-<body>
   
 
 <pre>
@@ -33,7 +30,6 @@ function showAboutUsDetails() {
  
   Waiting to hear from you!
 </pre>
-</body>
   </form>
 
     </div><!-- /.container -->

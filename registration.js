@@ -1,24 +1,24 @@
 function validForm(){
     let Fname = document.forms["RegForm"]["first_name"].value;
     let Lname = document.forms["RegForm"]["last_name"].value;
-    if (Fname.length <= 2) {
+    if (Fname.length < 2) {
         alert("First Name must be more than one letters");
         return false;
     }
-    if (Lname.length <= 2) {
+    if (Lname.length < 2) {
         alert("Last Name must be more than one letters");
         return false;
     }
     const date = document.getElementById("birthday").value;
     const varDate = new Date(date);
     const today = new Date();
-    if(varDate <= today) {
+    if(!date || varDate <= today) {
         alert("The date cant be!");
         return false;
     }
     let pass = document.forms["RegForm"]["pass"].value;
     let repass = document.forms["RegForm"]["repass"].value;
-    if( pass =! repass){
+    if( pass != repass){
         alert("Password did not matched");
         return false;
     }
@@ -47,9 +47,8 @@ function validForm(){
         alert("please enter just one dot");
         return false;
     }
-    else
-        alert("Welcome To Ticket Space")
-        return true;
+    alert("Welcome To Ticket Space")
+    return true;
 }
 
 function showRegistrationpage() {
@@ -58,7 +57,7 @@ function showRegistrationpage() {
 
 
 
-    <form name="RegForm" class="well form-horizontal" action="/action_page.php" method="post"  id="contact_form" onsubmit="return validForm()">
+    <form name="RegForm" class="well form-horizontal formay"  method="post"  id="contact_form" onsubmit="return validForm()">
 <fieldset>
 
 <!-- Form Name -->
@@ -81,7 +80,7 @@ function showRegistrationpage() {
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+  <input name="last_name" required placeholder="Last Name" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -104,7 +103,7 @@ function showRegistrationpage() {
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="user_name" placeholder="Username" class="form-control"  type="text">
+  <input required name="user_name" placeholder="Username" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -116,7 +115,7 @@ function showRegistrationpage() {
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="pass" placeholder="Password" class="form-control"  type="password">
+  <input required name="pass" placeholder="Password" class="form-control"  type="password">
     </div>
   </div>
 </div>
@@ -128,7 +127,7 @@ function showRegistrationpage() {
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="repass" placeholder="Confirm Password" class="form-control"  type="password">
+  <input required name="repass" placeholder="Confirm Password" class="form-control"  type="password">
     </div>
   </div>
 </div>
@@ -139,7 +138,7 @@ function showRegistrationpage() {
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+  <input required name="email" placeholder="E-Mail Address" class="form-control"  type="text">
     </div>
   </div>
 </div>
@@ -158,8 +157,6 @@ function showRegistrationpage() {
 </div>
     </div><!-- /.container -->
 
-
-</body>
 
 
 `}
