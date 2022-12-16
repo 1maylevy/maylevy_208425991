@@ -28,6 +28,10 @@ function validForm(){
         alert("Password did not matched");
         return false;
     }
+    if(pass.length>8){
+        alert("Password must be at least 8 digits");
+        return false;
+    }
     var email=document.forms["RegForm"]["email"].value;
     if(email.length()==0){
         alert("must fill email address");
@@ -144,7 +148,7 @@ function showRegistrationpage() {
     <div class="col-md-4 inputGroupContainer">
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-  <input required name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+  <input required name="email" placeholder="E-Mail Address" class="form-control"  type="email">
     </div>
   </div>
 </div>
