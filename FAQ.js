@@ -42,9 +42,11 @@ function showFAQpage() {
                 <h1 class="faq-page">How to choose an event hall?</h1>
                 <!-- faq answer -->
                 <div class="faq-body">
-                    <p><pre>The difficulty in choosing a hall does exist and is known to most of us. 
-                    We will present to you a number of guidelines that may help you find banquet halls that will match your standards:
-                     location in Israel, price of a dish, number of guests, season and recommendations</pre></p>
+                    <p><pre>
+The difficulty in choosing a hall does exist and is known to most of us. 
+We will present to you a number of guidelines that may help you 
+find banquet halls that will match your standards:
+location in Israel, price of a dish, number of guests, season and recommendations</pre></p>
                 </div>
  
             <hr class="hr-line">
@@ -53,7 +55,8 @@ function showFAQpage() {
                 <h1 class="faq-page">10 steps to planning a wedding</h1>
                 <!-- faq answer -->
                 <div class="faq-body">
-                    <p><pre>1. The invitation of the guests
+                    <p><pre>
+1. The invitation of the guests
 2. The date of the wedding
 3. Budget
 4. The style of the wedding
@@ -71,10 +74,11 @@ function showFAQpage() {
                 <h1 class="faq-page">Personal design of event halls - worth the investment?</h1>
                 <!-- faq answer -->
                 <div class="faq-body">
-                    <p><pre>Personal design of event halls is first of all a matter of budget.
-                     Before you even think about a more personal and special design of the event hall,
-                     you must define your budget and subtract from it all the basic expenses
-                      that you must make for the event such as a photographer, DJ, clothing, invitations and more.</pre></p>
+                    <p><pre>
+Personal design of event halls is first of all a matter of budget.
+Before you even think about a more personal and special design of the event hall,
+you must define your budget and subtract from it all the basic expenses
+that you must make for the event such as a photographer, DJ, clothing, invitations and more.</pre></p>
                 </div>
             </div>
              <hr class="hr-line">
@@ -83,7 +87,8 @@ function showFAQpage() {
                 <h1 class="faq-page">4 wedding styles that are worth getting to know</h1>
                 <!-- faq answer -->
                 <div class="faq-body">
-                    <p><pre>1. Reverse wedding
+                    <p><pre>
+1. Reverse wedding
 2. American wedding
 3. Country wedding
 4. Urban style wedding
@@ -98,7 +103,8 @@ Good luck to you!/pre></p>
                 <!-- faq answer -->
                 <div class="faq-body">
                     <p>
-                    <pre>Get a few simple rules that you should follow on the way to a successful event:
+                    <pre>
+Get a few simple rules that you should follow on the way to a successful event:
 - Create a shared vision
 - Collect information and document
 - Maintain a budget
@@ -112,8 +118,9 @@ Good luck to you!/pre></p>
 <h1 class="faq-page">Is it worth doing an event in the winter?</h1>
                 <!-- faq answer -->
                 <div class="faq-body">
-                    <p><pre>Yes. Events in winter have many advantages that events in other seasons do not have.
-                     The winter atmosphere radiates something warm and intimate that is not found in any other season</pre></p>
+                    <p><pre>
+Yes. Events in winter have many advantages that events in other seasons do not have.
+The winter atmosphere radiates something warm and intimate that is not found in any other season</pre></p>
                 </div>
             </div>
         </section>

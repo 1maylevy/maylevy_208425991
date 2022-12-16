@@ -1,6 +1,12 @@
 function validForm(){
     let Fname = document.forms["RegForm"]["first_name"].value;
     let Lname = document.forms["RegForm"]["last_name"].value;
+    let username =document.forms["RegForm"]["user_name"].value;
+    var regname= /^[a-zA-Z\-\u05D0-\u05EA'\s]+$/i;
+    if(!regname.test(username.value)){
+        alert("only digits and no spaces");
+        return false;
+    }
     if (Fname.length < 2) {
         alert("First Name must be more than one letters");
         return false;
@@ -12,7 +18,7 @@ function validForm(){
     const date = document.getElementById("birthday").value;
     const varDate = new Date(date);
     const today = new Date();
-    if(!date || varDate <= today) {
+    if(!date || varDate >= today) {
         alert("The date cant be!");
         return false;
     }
